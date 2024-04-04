@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weight Calculator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    input[type="number"] {
+      width: 100px;
+      padding: 5px;
+      margin-right: 10px;
+    }
+    button {
+      padding: 8px 16px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Weight Calculator</h1>
+  <p>Enter your weight (in kg): <input type="number" id="weight"></p>
+  <p>Select a planet:</p>
+  <select id="planet">
+    <option value="mercury">Mercury</option>
+    <option value="venus">Venus</option>
+    <option value="earth">Earth</option>
+    <option value="mars">Mars</option>
+    <option value="jupiter">Jupiter</option>
+    <option value="saturn">Saturn</option>
+    <option value="uranus">Uranus</option>
+    <option value="neptune">Neptune</option>
+  </select>
+  <button id="calculate">Calculate</button>
+  <p id="result"></p>
+  <script src="main.js"></script>
+</body>
+</html>
